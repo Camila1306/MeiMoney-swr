@@ -22,7 +22,8 @@ padding: 0;
   text-align: center;
   background-color: #004853;
   color: antiquewhite;
-  border-radius: 5px;
+  border-radius: 5px; 
+  font-size: 150%;
   
 }
 
@@ -32,4 +33,45 @@ main div iframe {
   border-radius: 8px;
   margin-top: 1%;
   margin-bottom: 2%;
+}
+
+/*animation*/
+
+header div {
+  animation: fromtop .4s backwards;
+}
+
+main div {
+  animation: fromtop .8s backwards ;
+}
+
+main div:nth-child(1) {
+  animation-delay: 0;
+}
+main div:nth-child(2) {
+  animation-delay: .4s;
+}
+main div:nth-child(3) {
+  animation-delay: .12s;
+}
+main div:nth-child(4) {
+  animation-delay: .8s;
+}
+
+footer div{
+  animation: fromtop .12s backwards;
+}
+ 
+
+@keyframes fromtop {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
 }
