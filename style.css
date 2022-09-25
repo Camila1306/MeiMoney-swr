@@ -45,16 +45,16 @@ main div {
   animation: fromtop .8s backwards ;
 }
 
-main div:nth-child(1) {
+main div img:nth-child(1) {
   animation-delay: 0;
 }
-main div:nth-child(2) {
+main div img:nth-child(2) {
   animation-delay: .4s;
 }
-main div:nth-child(3) {
+main div img:nth-child(3) {
   animation-delay: .12s;
 }
-main div:nth-child(4) {
+main div h2 {
   animation-delay: .8s;
 }
 
