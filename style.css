@@ -16,8 +16,8 @@ padding: 0;
 
 .video h2 {
   
-  margin-top: 25px;
-  margin-left: 25px;
+  margin-top: 5%;
+  margin-left: 5%;
   margin-right: 64%;
   text-align: center;
   background-color: #004853;
@@ -30,6 +30,8 @@ padding: 0;
 main div iframe {
   margin-inline-start: 25%;
   border-radius: 8px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: auto;
+  width: auto;
 }
